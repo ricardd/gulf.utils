@@ -29,6 +29,7 @@ Functions to clear or erase items.
 }
 
 \examples{
+\dontrun{
 # Clear graphics:
 clg()
 clg(grDevices::dev.list())
@@ -38,5 +39,6 @@ clm()
 
 # Clear R console:
 clc()
+}
 
 }

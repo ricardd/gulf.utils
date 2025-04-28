@@ -7,6 +7,7 @@
 #' @param x Graphic handle(s)
 #'
 #' @examples
+#' \dontrun{
 #' # Clear graphics:
 #' clg()
 #' clg(grDevices::dev.list())
@@ -16,6 +17,7 @@
 #'
 #' # Clear R console:
 #' clc()
+#' }
 #'
 #' @section Functions:
 #' \describe{

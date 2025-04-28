@@ -25,8 +25,9 @@ Calculates elapsed time between calls to \code{tic} and \code{toc}.
 }
 
 \examples{
+\dontrun{
 tic()
    for (i in 1:1000000) x <- i
 toc()
-
+}
 }

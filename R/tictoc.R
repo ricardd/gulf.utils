@@ -7,10 +7,11 @@
 #' @param gcFirst Logical value.
 #'
 #' @examples
+#' \dontrun{
 #' tic()
 #'    for (i in 1:1000000) x <- i
 #' toc()
-#'
+#' }
 #' @section Functions:
 #' \describe{
 #'    \item{\code{tic}}{Start timer.}
